@@ -1,0 +1,29 @@
+header {
+	text-align: center;
+	margin: 3rem 0;
+}
+
+header img {
+	height: 5rem;
+	width: 10rem;
+	object-fit: cover;
+	border-radius: 10px;
+	filter: hue-rotate(90deg);
+}
+
+header h1 {
+	margin: 0;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 5rem;
+	background: linear-gradient(50deg, #495d68, #2c474a, #b1d9ba, #abafa8);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	filter: drop-shadow(0 2px 8px rgba(6, 5, 5, 0.5));
+}
+
+header p {
+	margin: 0;
+	font-size: 1.25rem;
+	color: #354f52;
+	font-family: 'Roboto Condensed', sans-serif;
+}
