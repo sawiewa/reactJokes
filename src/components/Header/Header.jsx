@@ -3,7 +3,11 @@ import logo from '../../assets/dlaczegoja.jpg';
 //import componentsImg from '../src/assets/components.png';
 import './Header.css';
 
-const reactDescriptions = ['nową ', 'znaną wszystkim ', 'chyba lubianą :)'];
+const reactDescriptions = [
+	'Nie pożałujesz  😏  ',
+	'Dam z siebie wszystko  😎 ',
+	'Bo tak  😜 ',
+];
 
 function genRandomInt(max) {
 	return Math.floor(Math.random() * (max + 1));
@@ -13,9 +17,7 @@ export default function Header() {
 		<header>
 			<img src={logo} alt='Stylized atom' />
 			<h1>Dlaczego JA ?</h1>
-			<p>
-				Wybierz {reactDescriptions[genRandomInt(2)]} osobowość do swojego zespołu :)
-			</p>
+			<p>{reactDescriptions[genRandomInt(2)]}</p>
 		</header>
 	);
 }

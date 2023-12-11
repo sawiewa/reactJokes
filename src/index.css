@@ -34,7 +34,6 @@ main h2 {
 
 #examples {
 	margin: 3rem auto;
-	
 }
 
 #examples h2 {
@@ -118,7 +117,7 @@ img {
 	cursor: pointer;
 	transition: all 0.2s ease-in-out;
 	height: 50px;
-	width: 100px;
+	width: 200px;
 }
 #examples div button:hover {
 	background-color: #6d8185;
